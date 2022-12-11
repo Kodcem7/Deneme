@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemen Üye Ol</title>
+</head>
+<body>
+    <form action="register.php">
+        <h1>
+            Lütfen Formu Doldurunuz.
+        </h1>
+        <hr>
+        <h2> Hesap Bilgileriniz</h2>
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        Kullanıcı Adı:
+                    </td>
+                    <td>
+                        <label for="Ku-Ad"></label>
+                        <input type="text" id="Ku-Ad" placeholder="Kullanıcı adınızı giriniz">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Eposta:
+                    </td>
+                    <td>
+                        <label for="Eposta"></label>
+                        <input type="email" id="Eposta" placeholder="E-postanızı giriniz">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Parola:
+                    </td>
+                    <td>
+                        <label for="sifre"></label>
+                        <input type="password" id="sifre" placeholder="Şifrenizi giriniz">
+                    </td> 
+                </tr>
+            </table>
+            
+            
+            
+        </div>
+        <br>
+        <h2>Kişisel Bilgileriniz</h2>
+        <table>
+            <tr>
+                <td>Adınız:</td>
+                <td><label for="Ad"></label>
+                    <input type="text" id="Ad" placeholder="Adınızı giriniz"></td>
+            </tr>
+            <tr>
+                <td>Soyadınız:</td>
+                <td><label for="Soyad"></label>
+                    <input type="text" id="Soyad" placeholder="Soyadınızı giriniz"></td>
+            </tr>
+            <tr>
+                <td>Şehir:</td>
+                <td><label for="sehir"></label>
+                    <select id="sehir">
+                        <option value="00">Seçiniz</option>
+                        <option value="06">Ankara</option>
+                        <option value="34">İstanbul</option>
+                        <option value="07">Antalya</option>
+                        <option value="20">Denizli</option>
+                        <option value="16">Bursa</option>
+                        <option value="35">İzmir</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Cinsiyet:</td>
+                <td>
+                <input type="radio" id="erkek" name="cinsiyet">
+                <label for="erkek">Erkek</label>
+                <input type="radio" id="kadın" name="cinsiyet">
+                <label for="kadın">Kadın</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Hobileriniz:</td>
+                <td><input type="checkbox" id="hobi">
+                <label for="hobi">Sinema</label>
+                <input type="checkbox" id="hobi2">
+                <label for="hobi2">Gezmek</label>
+                <input type="checkbox" id="hobi3">
+                <label for="hobi3">Satranç</label>
+                <input type="checkbox" id="hobi4">
+                <label for="hobi4">Kitap Okuma</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="submit">Save</button>
+                    <button type="reset">Reset</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
